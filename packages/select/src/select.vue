@@ -87,7 +87,7 @@
       @keydown.native.up.stop.prevent="navigateOptions('prev')"
       @keydown.native.enter.prevent="selectOption"
       @keydown.native.esc.stop.prevent="visible = false"
-      @keydown.native.tab="visible = false"
+      @keydown.native.tab="TimeoutClose"
       @paste.native="debouncedOnInputChange"
       @mouseenter.native="inputHovering = true"
       @mouseleave.native="inputHovering = false">
@@ -728,6 +728,12 @@
             (this.$refs.input || this.$refs.reference).focus();
           }
         }
+      },
+
+      TimeoutClose() {
+        setTimeout(() => {
+          this.visible = false;
+        }, 100);
       },
 
       selectOption() {
