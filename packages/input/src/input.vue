@@ -25,6 +25,7 @@
         class="el-input__inner"
         v-bind="$attrs"
         :type="type"
+        v-mask="mask"
         :disabled="inputDisabled"
         :readonly="readonly"
         :autocomplete="autoComplete || autocomplete"
@@ -103,10 +104,14 @@
   import calcTextareaHeight from './calcTextareaHeight';
   import merge from 'element-ui/src/utils/merge';
 
+  import {mask} from 'vue-the-mask'
+
   export default {
     name: 'ElInput',
 
     componentName: 'ElInput',
+
+    directives: {mask},
 
     mixins: [emitter, Migrating],
 
@@ -140,6 +145,9 @@
       type: {
         type: String,
         default: 'text'
+      },
+      mask: {
+        default: ''
       },
       autosize: {
         type: [Boolean, Object],

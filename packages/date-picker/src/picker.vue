@@ -6,6 +6,7 @@
     :disabled="pickerDisabled"
     :size="pickerSize"
     :name="name"
+    :mask="mask"
     v-bind="firstInputId"
     v-if="!ranged"
     v-clickoutside="handleClose"
@@ -369,6 +370,9 @@ export default {
     id: {
       default: '',
       validator
+    },
+    mask: {
+      default: ''
     },
     popperClass: String,
     editable: {
