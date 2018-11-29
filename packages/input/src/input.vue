@@ -104,7 +104,7 @@
   import calcTextareaHeight from './calcTextareaHeight';
   import merge from 'element-ui/src/utils/merge';
 
-  import Inputmask from 'vuejs-inputmask'
+  import Inputmask from 'vuejs-inputmask';
 
   export default {
     name: 'ElInput',
