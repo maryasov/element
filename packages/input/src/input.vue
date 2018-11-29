@@ -146,7 +146,7 @@
         default: 'text'
       },
       mask: {
-        default: ''
+        default: {}
       },
       autosize: {
         type: [Boolean, Object],

@@ -372,7 +372,7 @@ export default {
       validator
     },
     mask: {
-      default: ''
+      default: {}
     },
     popperClass: String,
     editable: {
