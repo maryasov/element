@@ -372,7 +372,8 @@ export default {
       validator
     },
     mask: {
-      default: {}
+      type: [String, Object],
+      default: ''
     },
     popperClass: String,
     editable: {

@@ -143,7 +143,8 @@
         default: 'text'
       },
       mask: {
-        default: {}
+        type: [String, Object],
+        default: ''
       },
       autosize: {
         type: [Boolean, Object],
