@@ -54,6 +54,7 @@
     "deepmerge": "^1.2.0",
     "normalize-wheel": "^1.0.1",
     "resize-observer-polyfill": "^1.5.0",
+    "vuejs-inputmask": "^0.0.8",
     "throttle-debounce": "^1.0.1"
   },
   "peerDependencies": {
@@ -132,7 +133,6 @@
     "vue-router": "2.7.0",
     "vue-template-compiler": "^2.5.2",
     "vue-template-es2015-compiler": "^1.6.0",
-    "vuejs-inputmask": "^0.0.8",
     "webpack": "^3.7.1",
     "webpack-dev-server": "^2.9.1",
     "webpack-node-externals": "^1.6.0"
