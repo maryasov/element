@@ -54,8 +54,8 @@
     "deepmerge": "^1.2.0",
     "normalize-wheel": "^1.0.1",
     "resize-observer-polyfill": "^1.5.0",
-    "vuejs-inputmask": "^0.0.8",
-    "throttle-debounce": "^1.0.1"
+    "throttle-debounce": "^1.0.1",
+    "directive-inputmask": "github:maryasov/directive-inputmask#790115e08970926aba1b2c0a69975b69f6fb53ee"
   },
   "peerDependencies": {
     "vue": "^2.5.2"

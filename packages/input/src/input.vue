@@ -103,12 +103,15 @@
   import Migrating from 'element-ui/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
   import merge from 'element-ui/src/utils/merge';
+  // import {DirectiveInputmask} from 'directive-inputmask';
 
   export default {
     name: 'ElInput',
 
     componentName: 'ElInput',
-
+    // directives: {
+    //   mask: DirectiveInputmask
+    // },
     mixins: [emitter, Migrating],
 
     inheritAttrs: false,
