@@ -25,7 +25,6 @@
         class="el-input__inner"
         v-bind="$attrs"
         :type="type"
-        v-mask="mask"
         :disabled="inputDisabled"
         :readonly="readonly"
         :autocomplete="autoComplete || autocomplete"
