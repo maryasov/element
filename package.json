@@ -1,5 +1,5 @@
 {
-  "name": "element-ui",
+  "name": "@max_wagner/element-ui",
   "version": "2.4.11",
   "description": "A Component Library for Vue.js.",
   "main": "lib/element-ui.common.js",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:maryasov/element.git"
+    "url": "git+ssh://git@github.com/maryasov/element.git"
   },
   "homepage": "http://element.eleme.io",
   "keywords": [
@@ -136,5 +136,11 @@
     "webpack": "^3.7.1",
     "webpack-dev-server": "^2.9.1",
     "webpack-node-externals": "^1.6.0"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }
